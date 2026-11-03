@@ -1,0 +1,5 @@
+model,configuration,accuracy,balanced_accuracy,gross_total_return,net_total_return,max_drawdown,turnover_units,long_fraction,observations
+svc_baseline,svc_baseline,0.4303599374,0.5,-0.2956351718,-0.2963624138,-0.449705296,2,0,639
+adaboost_baseline,adaboost_baseline,0.5805946792,0.5282867133,0.6965402434,0.659531685,-0.1471002332,44,0.8794992175,639
+selected,adaboost_baseline,0.5805946792,0.5282867133,0.6965402434,0.659531685,-0.1471002332,44,0.8794992175,639
+always_long,constant_long,0.5696400626,0.5,0.317572892,0.3162936469,-0.3000730994,2,1,639
